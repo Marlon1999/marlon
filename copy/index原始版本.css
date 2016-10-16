@@ -1,0 +1,467 @@
+/*logo锟斤拷锟斤拷*/
+#logo, #index {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+#logo {
+    background-color: #BDC7D0;
+}
+#logo .container_login {
+    position: relative;
+    margin: 10px auto 0;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+#logo .container_login {
+    width: 1330px;
+    height: 634px;
+    background: url("../img/login.jpg") no-repeat;
+    background-size: cover;
+}
+#logo .login {
+    position: absolute;
+    top: 296px;
+    left: 472px;
+    height: 123px;
+    padding: 15px 82px;
+}
+#logo .login label {
+    display: block;
+    height: 58px;
+    font: 500 16px/45px "microsoft yahei";
+    color: #5d4932;
+}
+#logo .login .tx-login {
+    display: block;
+    width: 100px;
+    height: 32px;
+    background: #eeeeee;
+    line-height: 32px;
+    text-align: center;
+    color: #141414;
+    font-size: 16px;
+    margin: 15px 0px 0px 175px;
+    letter-spacing: 0.5em;
+    border-radius:5px;
+}
+#logo .login input {
+    width: 220px;
+    height: 30px;
+    font: 500 16px/30px "microsoft yahei";
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#logo .left {
+    position: absolute;
+    top: 168px;
+    left: 62px;
+    height: 75px;
+    width: 94px;
+    padding-left: 58px;
+    background: url("../img/guan.jpg") no-repeat;
+}
+
+#logo .ico {
+    background: url("../img/kai.jpg") no-repeat;
+}
+#logo .left span {
+    display: block;
+    color: #50402d;
+    font: 600 12px/14px "微软雅黑";
+    cursor: pointer;
+}
+#logo .right a{
+    position: absolute;
+    top: 160px;
+    right: 60px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+#logo .right img {
+    width: 100%;
+    height: 100%;
+}
+
+/*index锟斤拷锟斤拷*/
+#index .top {
+    height: 240px;
+    background: url("../img/small/work.jpg") no-repeat center center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 3% 5%;
+    color: #fff;
+    text-align: center;
+}
+#index .top h3 {
+    font: 500 32px/80px "微软雅黑";
+}
+#index .top p {
+    font: 400 24px/80px "微软雅黑";
+}
+#index .content {
+    width: 960px;
+    margin: 90px auto;
+    overflow: hidden;
+}
+#index #login-out{font-size: 14px; color: #3599E1; background: white;cursor: pointer;padding:5px 8px;}
+#index #login-out:hover{font-size: 14px; color: #fff; background: #3495DC;cursor: pointer;border-radius:3px;}
+#index .content  .wel div {
+    float: left;
+    width: 290px;
+    height: 180px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    color:#164989
+}
+/*main锟斤拷锟斤拷锟斤拷细*/
+a.tx-back {
+	display: inline-block;
+	margin-left: 50px;
+	background: #F0F1F3;
+	width: 100px;
+	line-height: 24px;
+	position: relative;
+	top: 500px;
+	text-align: center;
+	padding: 5px 10px;
+	color: #7A706E;
+	font-size: 15px;
+	font-weight: 400;
+	border-radius: 5px;
+}
+
+#select, #use, #money {
+    width: 100%;
+    height: 100%;
+    background-color: #876b66;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+#select .container_cha,
+#use .container_zhe,
+#money .container_zhang {
+    position: relative;
+    width: 907px;
+    height: 616px;
+    margin: 10px auto;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+ #select .container_cha {
+    background: url("../img/select.jpg") no-repeat;
+    background-size:  100% 100%;
+}
+
+#use .container_zhe {
+    background: url("../img/zhe.jpg") no-repeat;
+    background-size:  100% 100%;
+}
+
+#money .container_zhang {
+    background: url("../img/zhang.jpg") no-repeat;
+    background-size:  100% 100%;
+} 
+#select .container_cha ul,
+#use .container_zhe ul,
+#money .container_zhang ul {
+    position: absolute;
+    top: 190px;
+    width: 232px;
+}
+#select .container_cha ul li,
+#use .container_zhe ul li,
+#money .container_zhang ul li {
+    margin:10px 0px;
+}
+#select .container_cha ul li a,
+#use .container_zhe ul li a,
+#money .container_zhang ul li a {
+    height: 50px;
+    padding-left: 87px;
+    font: 100 12px/50px "microsoft yahei";
+    color: #fff;
+}
+#select .container_cha ul li  a,
+#use .container_zhe ul li a,
+#money .container_zhang ul li a {
+	margin-left:-15px;
+    font-size:14px;
+} 
+#select .container_cha ul li:first-child a{background: url("../img/small/use1.png") no-repeat 57px 19px;background-size: 14px 14px;}
+#use .container_zhe ul li:first-child a{background: url("../img/small/select1.png") no-repeat 57px 19px;background-size: 14px 14px;}
+#money .container_zhang ul li:first-child a {background: url("../img/small/select1.png") no-repeat 57px 19px;background-size: 14px 14px;}
+#money .container_zhang ul li:last-child a {background: url("../img/small/use1.png") no-repeat 57px 19px;background-size: 14px 14px;}
+
+#select .container_cha ul li:first-child:hover a{background: url("../img/small/use2.png") no-repeat 57px 19px;background-size: 14px 14px;}
+#use .container_zhe ul li:first-child:hover a{background: url("../img/small/select2.png") no-repeat 57px 19px;background-size: 14px 14px;}
+#money .container_zhang ul li:first-child:hover a {background: url("../img/small/select2.png") no-repeat 57px 19px;background-size: 14px 14px;}
+#money .container_zhang ul li:last-child:hover a {background: url("../img/small/use2.png") no-repeat 57px 19px;background-size: 14px 14px;}
+
+#select .container_cha ul li:hover,
+#use .container_zhe ul li:hover,
+#money .container_zhang ul li:hover {
+    background: url("../img/small/li-bg.png") no-repeat;
+    background-size: 229px 50px;
+}
+
+/*select锟斤拷锟斤拷*/
+#select .container_cha ul li:last-child a{
+    background: url("../img/small/money11.png") no-repeat 57px 19px;
+    background-size: 16px 12px;
+    z-index: 10;
+}
+#select .container_cha ul li:last-child:hover a {
+    color: #7a706e;
+    background: url("../img/small/money22.png") no-repeat 57px 19px;
+    background-size: 16px 12px;
+}
+#select .container_cha .tip1 #tip1currentBalance{color:blue}
+#select .container_cha .tip2,
+#select .container_cha .tip3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+#select .container_cha .tip1 {
+    position: absolute;
+    top: 136px;
+    left: 358px;
+    width: 198px;
+    height: 198px;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    font: 400 20px/30px "microsoft yahei";
+    background-color: #B0BAC6;
+}
+#select .container_cha .tip1 span {
+    display: inline-block;
+    color: #000;
+    paddind: 0 10px;
+    box-sizing: border-box;
+}
+#select .container_cha .tip3 {
+    top: 235px;
+    left: 589px;
+    padding: 8px 5px;
+     color: rgba(0,0,0,1);
+    font: 400 12px/12px "microsoft yahei";
+}
+#select .container_cha .tip2 {
+    top: 367px;
+    left: 529px;
+    padding: 14px;
+     color: rgba(0,0,0,1);
+    font: 400 12px/14px "microsoft yahei";
+}
+#select .container_cha .tip2 span,
+#select .container_cha .tip3 span {
+    color: #000;
+}
+#select .container_cha .tip1 input,
+#select .container_cha .tip2 input,
+#select .container_cha .tip3 input {
+    display: inline-block;
+    width: 36px;
+    height: 16px;
+    text-align: center;
+    color: #7a706e;
+    background-color: transparent;
+}
+#select .container_cha .tip2 input:first-child {
+    width: 24px;
+    height: 14px;
+}
+#select .container_cha .tip2 input:nth-child(2){
+    width: 12px;
+    height: 14px;
+}
+#select .container_cha .tip2 input:last-child {
+    width: 12px;
+    height: 14px;
+}
+#select .container_cha .tip3 input {
+    width: 32px;
+    height: 14px;
+}
+
+/*use锟斤拷锟斤拷锟斤拷细*/
+#use .container_zhe ul li:last-child a{
+    background: url("../img/small/money11.png") no-repeat 57px 19px;
+    background-size: 16px 12px;
+    z-index: 10;
+}
+#use .container_zhe ul li:last-child:hover a {
+    color: #7a706e;
+    background: url("../img/small/money22.png") no-repeat 57px 19px;
+    background-size: 16px 12px;
+}
+
+/*money锟斤拷锟斤拷*/
+#money .container_zhang .main {
+    position: absolute;
+    top: 24px;
+    left: 248px;
+    width: 632px;
+    height: 566px;
+    padding: 30px 32px 0 25px;
+    box-sizing: border-box;
+}
+#money .container_zhang .main .input {
+    height: 50px;
+    line-height: 50px;
+}
+#money .container_zhang .main .input label {
+    display: inline-block;
+    font: 500 12px/50px "microsoft yahei";
+    cursor: pointer;
+}
+#money .container_zhang .main .input input {
+    display: inline-block;
+    width: 125px;
+    height: 28px;
+    margin: 0 20px 0 10px;
+    padding-left: 8px;
+    border: 1px solid #cccecd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    font: 500 12px/28px "microsoft yahei";
+    color: #000;
+}
+#money .container_zhang .main .input button {
+    display: inline-block;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2f80c1;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+#money .container_zhang .main table {
+    border-collapse: collapse;
+    position: absolute;
+    width: 574px;
+}
+#money .container_zhang .main table td {
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    font-weight: 500;
+    color: #616161;
+    height: 36px;
+}
+#money .container_zhang .main table th {
+    text-align: center;
+    height: 50px;
+    position: rela;
+}
+#money .container_zhang .main table th:hover {
+    cursor: pointer;
+}
+#money .container_zhang .main table tr:last-child {
+    border: none;
+}
+#money .container_zhang .main .pageBox {
+    position: absolute;
+    top: 500px;
+    left: 64px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+#money .container_zhang .main .pageBox a {
+    width: 25px;
+    height: 30px;
+    font: 500 12px/30px "microsoft yahei";
+    color: #000;
+    border:1px solid #e0e1e2;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f6f7fb;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer
+}
+#money .container_zhang .main .pageBox .pageBtn{
+    width: 50px;
+}
+#money .container_zhang .main .pageBox a:hover,
+#money .container_zhang .main .pageBox .active {
+    background-color: #337aba;
+    color: #fff;
+}
+
+/*use锟斤拷锟斤拷*/
+#use .container_zhe .month {
+    position: absolute;
+    top: 70px;
+    left: 286px;
+    width: 550px;
+    height: 200px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#use .container_zhe .total {
+    position: absolute;
+    top: 370px;
+    left: 286px;
+    width: 550px;
+    height: 200px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#use .container_zhe .input {
+	position:absolute;
+	top:320px;
+	left:290px;
+    height: 50px;
+    line-height: 50px;
+}
+#use .container_zhe .input label {
+    display: inline-block;
+    font: 500 12px/50px "microsoft yahei";
+    cursor: pointer;
+}
+#use .container_zhe .input input {
+    display: inline-block;
+    width: 125px;
+    height: 28px;
+    margin: 0 20px 0 10px;
+    padding-left: 8px;
+    border: 1px solid #cccecd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    font: 500 12px/28px "microsoft yahei";
+    color: #000;
+}
+#use .container_zhe .input button {
+    display: inline-block;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #2f80c1;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
