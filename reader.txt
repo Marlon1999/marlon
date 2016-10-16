@@ -1,0 +1,7 @@
+架构：Spring+SpringMVC+MyBatis
+数据库：MySQL5.7============db.properties
+	连接用户名：root
+	密码：123456
+访问：localhost:8080/txsk/user/list
+
+备注：由于时间原因只做了学生信息列表的增删改查
